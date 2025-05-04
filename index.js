@@ -4,7 +4,7 @@ import cors from "cors";
 import 'dotenv/config'
 
 import mongoose from "mongoose";
-import SensorData from "./db/data.js";
+import SensorData from "./data.js";
 
 const accountSid = process.env.TWILIO_ACCOUNT_SID;
 const authToken = process.env.TWILIO_AUTH_TOKEN;

@@ -56,7 +56,8 @@ app.post('/data',async (req,res,_)=>{
         .create({
             to: '+919062170107',
             from: '+19787836533',
-            body: 'Chances of land slide! Alert.',
+            body: `Be Alert 🚨!!!!
+            Chances of Landslide .`,
         })
         .then(message => console.log(message.sid))
 
@@ -81,7 +82,7 @@ app.get('/raisealarm',(req,res,_)=>{
 })
 
 const timerReset = ()=>{
-    setInterval(()=>flag=true,15000)
+    setInterval(()=>flag=true,30000)
 }
 
 app.listen(3000,async ()=>{

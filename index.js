@@ -55,7 +55,7 @@ app.post('/data',async (req,res,_)=>{
             client.messages
         .create({
             to: '+919062170107',
-            from: '+19704108532',
+            from: '+19787836533',
             body: 'Chances of land slide! Alert.',
         })
         .then(message => console.log(message.sid))
